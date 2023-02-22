@@ -1,0 +1,12 @@
+a {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    border: black dotted;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }

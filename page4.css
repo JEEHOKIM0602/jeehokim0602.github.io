@@ -1,0 +1,46 @@
+body  {
+    /* Source: The Guardian */
+    background: url("https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/8/20/1408531764991/f023f48d-67d0-45ef-acb3-732bec1d3bd5-2060x1236.jpeg?width=700&quality=85&auto=format&fit=max&s=3ca4e01f4e7fd2de1a854738ce4bef88") no-repeat center center fixed;
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+.header {
+    text-align: center;
+    margin:40px;   
+}
+
+.body {
+    text-align: center;
+    margin:40px;
+}
+
+.flexing {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border: thick double #32a1ce;
+}
+
+img {
+    border: thick double #32a1ce;
+}
+
+.flexing > p {
+    background-color: #f1f1f1;
+    width: 30%;
+    margin: 10px;
+    padding: 30px;
+    font-size: 30px;
+    font-style: italic;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+  }
+
+  .flexing > p:hover {
+    background-color: black;
+  }
