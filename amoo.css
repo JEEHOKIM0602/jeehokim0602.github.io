@@ -4,6 +4,7 @@ a{
     display: inline-block;
     border: black dotted;
     padding: 8px 16px;
+    
 }
 
 a :hover{
