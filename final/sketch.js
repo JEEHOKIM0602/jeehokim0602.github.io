@@ -26,7 +26,7 @@ function draw() {
     o.update();
     o.show();
   }
-  
+
   //Obstacle distance
   if (frameCount % 200 == 0) {
     obstacles.push(new Obstacle());
