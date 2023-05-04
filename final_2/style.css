@@ -1,0 +1,19 @@
+html, body {
+  background-color: rgb(150, 240, 150);
+  text-align: center;
+}
+
+canvas {
+  margin-top: 4%;
+  border: 8px solid black;
+
+}
+
+button{
+  position: absolute;
+  width: 500px;
+  height: 40px;
+  bottom: 15px;
+  left: 35%;
+  cursor: pointer;
+}
