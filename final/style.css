@@ -6,7 +6,5 @@ html, body {
 }
 
 canvas {
-  border: 8px solid black;
-  margin-top: 5%;
   text-align: center;
 }
