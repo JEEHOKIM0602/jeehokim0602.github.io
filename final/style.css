@@ -2,9 +2,11 @@ html, body {
   margin: 0;
   padding: 0;
   background-color: gray;
+  text-align: center;
 }
 
 canvas {
+  border: 8px solid black;
   margin-top: 5%;
   text-align: center;
 }
